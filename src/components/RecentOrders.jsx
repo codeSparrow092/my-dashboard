@@ -4,14 +4,14 @@ import React from 'react';
 const RecentOrders = () => {
     return (
         <div className="bg-gray-800 p-4 rounded-lg">
-            <h3 className="text-gray-400 mb-4">Recent Orders</h3>
+            <h3 className="text-xl font-bold mb-4">Recent Orders</h3>
             <table className="w-full text-left">
                 <thead>
                     <tr>
-                        <th className="text-gray-500">Customer</th>
-                        <th className="text-gray-500">Order No.</th>
-                        <th className="text-gray-500">Amount</th>
-                        <th className="text-gray-500">Status</th>
+                        <th className="text-l">Customer</th>
+                        <th className="text-l">Order No.</th>
+                        <th className="text-l">Amount</th>
+                        <th className="text-l">Status</th>
                     </tr>
                 </thead>
                 <tbody>

@@ -4,7 +4,7 @@ import React from 'react';
 const FeedbackWidget = () => {
     return (
         <div className="bg-gray-800 p-4 rounded-lg">
-            <h3 className="text-gray-400 mb-4">Customer's Feedback</h3>
+            <h3 className="mb-4 text-xl font-bold">Customer's Feedback</h3>
             <div className="space-y-4">
                 <div>
                     <p className="text-white font-semibold">Jenny Wilson</p>
